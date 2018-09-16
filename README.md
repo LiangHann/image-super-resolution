@@ -16,13 +16,13 @@ NVIDIA GPU + CUDA(>=8.0) + CuDNN(>=5.0) (CPU mode and CUDA without CuDNN may wor
 
 # Training and Testing
 
-To train a model at 256p resolution, please set "is_training=True" and change the file paths for training and test sets accordingly in "demo_256p.py". Then run "demo_256p.py".
+To train a model that super-resolves the phase contrast image only using the adversarial loss, please run "adversarial_loss_only.py".
 
-To train a model at 256p resolution, please set "is_training=True" and change the file paths for training and test sets accordingly in "demo_256p.py". Then run "demo_256p.py".
+To train a model that super-resolves the phase contrast image only using the content loss, please run "contnet_loss_only.py".
 
-To train a model at 256p resolution, please set "is_training=True" and change the file paths for training and test sets accordingly in "demo_256p.py". Then run "demo_256p.py".
+To train a model that super-resolves the phase contrast image using our proposed cascaded refinement GAN, please run "cascaded_refinement_GAN.py".
 
-To train a model at 256p resolution, please set "is_training=True" and change the file paths for training and test sets accordingly in "demo_256p.py". Then run "demo_256p.py".
+To train a model that super-resolves the phase contrast image only using a single image input, i.e., no differential pattern filter (DPF) is used, please run "single_image_input.py".
 
 # Citation
 
@@ -32,4 +32,4 @@ Liang Han and Zhaozheng Yin. A Cascaded Refinement GAN for Phase Contrast Micros
 
 # Acknowledegments
 
-Part of the code borrows from 'Photographic Image Synthesis with Cascaded Refinement Networks'.
+Part of the code in this project borrows from 'Photographic Image Synthesis with Cascaded Refinement Networks'.
