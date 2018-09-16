@@ -18,7 +18,7 @@ NVIDIA GPU + CUDA(>=8.0) + CuDNN(>=5.0) (CPU mode and CUDA without CuDNN may wor
 
 To train a model that super-resolves the phase contrast image only using the adversarial loss, please run "adversarial_loss_only.py".
 
-To train a model that super-resolves the phase contrast image only using the content loss, please run "contnet_loss_only.py".
+To train a model that super-resolves the phase contrast image only using the content loss, please run "content_loss_only.py".
 
 To train a model that super-resolves the phase contrast image using our proposed cascaded refinement GAN, please run "cascaded_refinement_GAN.py".
 
